@@ -1,0 +1,408 @@
+:root {
+    --color_decs: #B3B3B3;
+    --colar_title: #2A2A2A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+input,
+output {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+input,
+output:focus {
+    outline: none;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/* ==================================================== Nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+    margin-top: 35px;
+}
+
+.nav_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+
+.nav_left h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.nav_right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_right-li {
+    display: flex;
+    gap: 32px;
+}
+
+.nav_right-left {
+    width: 330px;
+    margin-top: 18px;
+    margin-right: 118px;
+}
+
+.nav_right-left a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.4px;
+    color: var(--colar_title);
+}
+
+.nav a:hover {
+    color: var(--color_decs);
+}
+
+.nav_right-right {
+    display: flex;
+    justify-content: space-between;
+    width: 253px;
+    height: 28px;
+    margin-top: 20px;
+}
+
+.nav_link {
+    width: 70px;
+    height: 20px;
+    border-right: 1px solid black;
+}
+
+.nav_link1 {
+    display: flex;
+    width: 58px;
+    height: 20px;
+    gap: 5px;
+    border-right: 1px solid black;
+}
+
+.nav_link a,
+.nav_link1 a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+}
+
+.img {
+    margin-left: 25px
+}
+
+/* ================================================ Analog */
+
+.section1 {
+    background-image: url(./img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.analog {
+    height: 600px;
+    margin-top: 35px;
+}
+
+.analog p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.5px;
+    padding-top: 517px;
+    color: #FFFFFF;
+}
+
+/* ================================================= Shopping */
+
+.shopping {
+    width: 1160px;
+    height: 926px;
+    margin-top: 20px;
+}
+
+.shopping_links {
+    display: flex;
+    width: 1160px;
+    height: 102px;
+    margin-top: 20px;
+}
+
+.shopping_links ul {
+    display: flex;
+    margin-left: 213px;
+    gap: 48px;
+}
+
+.shopping_links a {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color_decs);
+}
+
+.shopping_links a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.shopping_poster {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping_post {
+    width: 275px;
+    height: 420px;
+}
+
+.shopping_post img {
+    width: 275px;
+    height: 341px;
+}
+
+.shopping_post-title {
+    display: flex;
+    margin-top: 11px;
+}
+
+.shopping_post-title h1 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--colar_title);
+}
+
+.shopping_post-title p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--color_decs);
+}
+
+.shopping-sum {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    margin-top: 5px;
+    color: var(--colar_title);
+}
+
+/* ================================================== Table */
+
+.section3 {
+    background-image: url(./img/Rectangle\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table {
+    width: 116px;
+    height: 600px;
+    margin-top: 123px;
+}
+
+.table_top {
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+    margin-left: 1157px;
+}
+
+.table_top h1 {
+    margin-top: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+.table_title {
+    width: 360px;
+    height: 108px;
+    margin-top: 110px;
+}
+
+.table_title h1 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 54px;
+    color: #F7F7F7;
+}
+
+.table_title button {
+    width: 182px;
+    height: 40px;
+    margin-top: 13px;
+    background-color: #7E6E45;
+    border: 1px solid #7E6E45;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.table_title button:hover {
+    background-color: white;
+    color: #7E6E45;
+}
+
+.table_title p {
+    width: 160px;
+    height: 23px;
+    margin-top: 17px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: #F7F7F7;
+    border-bottom: 1px solid white;
+}
+
+/* ================================================== Shop */
+
+.shop {
+    width: 1160px;
+    height: 908px;
+    margin-top: 115px;
+}
+
+.shop_title h1 {
+    width: 630px;
+    height: 72px;
+    margin-left: 265px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.shop_dec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop_dec-photo {
+    width: 522px;
+    height: 679.27px;
+    margin-top: 90px;
+}
+
+.shop_dec-photo img {
+    width: 522px;
+    height: 647px;
+}
+
+.shop_p {
+    width: 97px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1A1A1A;
+    border-bottom: 1px solid black;
+}
+
+.shop_p2 {
+    width: 119px;
+}
+
+/* =============================================== Footer */
+
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    height: 189px;
+    margin-top: 76px;
+    margin-bottom: 85px;
+}
+
+.contact_left {
+    display: flex;
+    width: 840px;
+    height: 189px;
+}
+
+.contact1 {
+    width: 300px;
+    height: 189px;
+}
+
+.contact1 a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: var(--colar_title);
+}
+
+.contact1 a:hover {
+    color: var(--color_decs);
+}
+
+.contact1 li {
+    margin-top: 16px;
+}
+
+.contact_right {
+    width: 320px;
+    height: 189px;
+    margin-top: 16px;
+}
+
+.contact_r {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 36px;
+}
+
+.contact2 p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    color: var(--colar_title);
+}
+
+.contact_image {
+    width: 320px;
+    height: 65.5px;
+}
+
+.contact_img img {
+    width: 55px;
+    height: 88px;
+}
